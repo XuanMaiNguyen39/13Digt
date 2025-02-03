@@ -922,7 +922,7 @@ def create_subject():
              vm.Parameter(
                 targets=["barchart.text"],
                 selector=vm.Dropdown(
-                    options=["Arts and humanities ranking THE2024", "Engineering & Technology ranking THE24", "Natural science rankings QS24", "Life science/ medical rankings QS24", "Economics & Business Rankings THE24"], multi=False, value="Arts and humanities ranking THE2024", title="Choose the SAME university here"
+                    options=["Arts and humanities ranking THE2024", "Engineering & Technology ranking THE24", "Natural science rankings QS24", "Life science/ medical rankings QS24", "Economics & Business Rankings THE24"], multi=False, value="Arts and humanities ranking THE2024", title="Choose the SAME subject field here"
                 ),
             ),
         ],
@@ -1426,7 +1426,6 @@ def create_int():
                     data_frame=intdata,
                     values='University of Auckland',
                     names='Student Type',
-                    title="University of Auckland",
                 ),
             ),
              vm.Card(
